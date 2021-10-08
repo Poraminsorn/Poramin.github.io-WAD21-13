@@ -124,7 +124,7 @@
     <div class="side">
       <h2> ข่าวสาร Covid-19 </h2>
     <div class="widget-item-bannerimage">
-        <img src="images/n1.jpg">
+        <img src="images/n1.jpg" width="100%">
     </div>
     </div>
     <div class="main">
@@ -134,12 +134,13 @@
         ผู้สื่อข่าวรายงานว่า กระทรวงสาธารณสุข ได้รายงานสถานการณ์ "โควิด-19" ประจำวันเบื้องต้น โดยข้อมูล ณ วันที่ 7 ต.ค. 2564 มีผู้ป่วยผู้ติดเชื้อรายใหม่ 11,200 ราย แยกเป็นผู้ป่วยจากระบบเฝ้าระวังฯ 9,996 ราย ผู้ป่วยจากการค้นหาเชิงรุก 1,046 ราย
         ผู้ป่วยภายในเรือนจำ/ที่ต้องขัง 138 ราย หายป่วยกลับบ้าน 10,087 ราย ทำให้มีผู้ป่วยสะสม (ตั้งแต่ 1 เม.ย. 2564) จำนวน 1,649,434 ราย และมีผู้เสียชีวิตเพิ่ม 113 ศพ.
     </p>
-    <div>
+    <div >
         <script type='text/javascript' src='https://public.tableau.com/javascripts/api/tableau-2.min.js'></script>
         <div id='tableauPlaceholder' style='width: 1200px; height: 800px;'></div>
     </div>
     <script>
         var viz = null;
+    
         function initViz() {
             var containerDiv = document.getElementById("tableauPlaceholder"),
                 url = "https://dvis3.ddc.moph.go.th/t/sat-covid/views/SATCOVIDDashboard/3-dash-trend-types-w",
@@ -152,6 +153,7 @@
                 };
             viz = new tableau.Viz(containerDiv, url, options);
         }
+    
         initViz();
     </script>
     </div>
