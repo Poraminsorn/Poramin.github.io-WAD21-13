@@ -1,16 +1,16 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>ข่าวสาร</title>
+    <title>Profile</title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-
+    
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet" media="screen, projection">
     <link href="https://www.sogoodweb.com/Content/Default/Default.css" rel="stylesheet">
-
+    
     <link href="https://www.sogoodweb.com/Content/UC/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link href="https://www.sogoodweb.com/Content/UC/owl-carousel/animate.css" rel="stylesheet">
     <link href="https://www.sogoodweb.com/Content/UC/owl-carousel/owl.theme.default.css" rel="stylesheet">
@@ -19,55 +19,60 @@
     <link href="https://cdn.sogoodweb.com/Layout/9/layout.min.css" rel="stylesheet">
     <link href="https://cdn.sogoodweb.com/Template/TemplateDefault.min.css" rel="stylesheet">
     <link href="https://cdn.sogoodweb.com/Template/115/template.min.css" rel="stylesheet">
+    
+    
     <link rel="stylesheet" href="costom.css">
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    
+    
     <style>
-        * {
-          box-sizing: border-box;
+        .comeHome{
+            background-color:rgba(168, 168, 168, 0.3);
         }
-        /* Style the body */
-        body {
-          font-family: Arial;
-          margin: 0;
+        .img{
+            
+            padding: 0% 0% 0% 24%;
         }
-        /* Column container */
-        .row {
-          display: flex;
-          flex-wrap: wrap;
+        .img1{
+            margin: 0% 2% 0% 0%;
+            float: left;
         }
-        /* Create two unequal columns that sits next to each other */
-        /* Sidebar/left column */
-        .side {
-          flex: 50%;
-          background-color: #f1f1f1;
-          padding: 20px;
+        .img2{
+            margin: 0% 2% 0% 0%;
+            float: left;
         }
-        /* Main column */
-        .main {
-          flex: 50%;
-          background-color: white;
-          padding: 20px;
+        .img3{
+            margin: 0% 10% 0% 0%;
+            float: left;
         }
-        /* Fake image, just for this example */
-        .fakeimg {
-          background-color: #aaa;
-          width: 100%;
-          padding: 20px;
+        .name{
+            float:inline-end
         }
-        /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-        @media screen and (max-width: 700px) {
-          .row,
-          .navbar {
-            flex-direction: column;
-          }
+        #div1{
+            width: 8%;
+            height: 5%;
+            margin: 1% 8% 2% 29% ;
         }
-      </style>
+        #div2{
+            width: 8%;
+            height: 5%;
+            margin: 1% 2% 2% ;
+        }
+        #div3{
+            width: 8%;
+            height: 5%;
+            margin: 1% 0% 2% 8%;
+        }
+
+       
+    </style>
 </head>
 
 <body>
+    
 <!-- hearder -->
     <div id="wrapper_header" class="wrapper">
         <header id="header">
@@ -97,16 +102,10 @@
                 <div data-widget="menu" id="widget_menu_2414" class="widget widget-nav-main collapse">
                     <div class="widget-items">
                         <ul class="mainlevel sublevel-1 fontsize-menu">
-                            <li class="widget-item widget-menu-item menu-item mainitem subitem-1 ">
-                                <a href="home.html">หน้าหลัก</a>
+                            
+                            <li class="widget-item widget-menu-item menu-item mainitem subitem-1">
+                                <a href="home.html" class="comeHome">กลับหน้าหลัก</a>
                             </li>
-                            <li class="widget-item widget-menu-item menu-item mainitem subitem-1 selected">
-                                <a href="News.html">ข่าวสาร</a>
-                            </li>
-                            <li class="widget-item widget-menu-item menu-item mainitem subitem-1 ">
-                                <a href="Infect.html">จำนวนผู้ติดเชื้อ</a>
-                            </li>
-
                         </ul>
                     </div>
                 </div>
@@ -116,48 +115,46 @@
 <!-- -----------------------------------End hearder-------------------------------------- -->
 
 
-<!-- menu text -->
-  <!-- The flexible grid (content) -->
-  <div id="wrapper_section_top" class="wrapper">
-    <div class="section-full-top">
-    <div class="row">
-    <div class="side">
-      <h2> ข่าวสาร Covid-19 </h2>
-    <div class="widget-item-bannerimage">
-        <img src="images/n1.jpg">
-    </div>
-    </div>
-    <div class="main">
-      <h2>อัปเดตสถานการณ์ "โควิด-19"</h2>
-    <p>
-        อัปเดตสถานการณ์ "โควิด-19" วันนี้ผู้ติดเชื้อรายใหม่เพิ่มขึ้น 11,200 ราย ทำให้มีผู้ป่วยสะสม 1,649,434 ราย หายป่วยกลับบ้าน 10,087 ราย เสียชีวิตเพิ่ม 113 ศพ
-        ผู้สื่อข่าวรายงานว่า กระทรวงสาธารณสุข ได้รายงานสถานการณ์ "โควิด-19" ประจำวันเบื้องต้น โดยข้อมูล ณ วันที่ 7 ต.ค. 2564 มีผู้ป่วยผู้ติดเชื้อรายใหม่ 11,200 ราย แยกเป็นผู้ป่วยจากระบบเฝ้าระวังฯ 9,996 ราย ผู้ป่วยจากการค้นหาเชิงรุก 1,046 ราย
-        ผู้ป่วยภายในเรือนจำ/ที่ต้องขัง 138 ราย หายป่วยกลับบ้าน 10,087 ราย ทำให้มีผู้ป่วยสะสม (ตั้งแต่ 1 เม.ย. 2564) จำนวน 1,649,434 ราย และมีผู้เสียชีวิตเพิ่ม 113 ศพ.
-    </p>
-    <div>
-        <script type='text/javascript' src='https://public.tableau.com/javascripts/api/tableau-2.min.js'></script>
-        <div id='tableauPlaceholder' style='width: 1200px; height: 800px;'></div>
-    </div>
-    <script>
-        var viz = null;
-        function initViz() {
-            var containerDiv = document.getElementById("tableauPlaceholder"),
-                url = "https://dvis3.ddc.moph.go.th/t/sat-covid/views/SATCOVIDDashboard/3-dash-trend-types-w",
-                options = {
-                    hideTabs: true,
-                    hideToolbar: true,
-                    onFirstInteractive: function () {
-                        console.log("Finish Calling");
-                    }
-                };
-            viz = new tableau.Viz(containerDiv, url, options);
-        }
-        initViz();
-    </script>
-    </div>
-  </div>
+<div class="img">  
+    <div><img class="borderimage img1" onMouseover="borderit(this,'black')" onMouseout="borderit(this,'white')" src="images/prs.jpg" alt="" height="25%" width="22%"></div>
+    <div><img class="borderimage img2" onMouseover="borderit(this,'black')" onMouseout="borderit(this,'white')" src="images/dpn.jpg" alt="" height="25%" width="22%"></div>
+    <div><img class="borderimage img3" onMouseover="borderit(this,'black')" onMouseout="borderit(this,'white')" src="images/gnw.jpg" alt="" height="25%" width="22%"></div>
 </div>
-<!------------------------------------ menu text --------------------------------------->
+
+<div class="name">  
+    <P id="div1">Poramin Sornwieng <br>613040051-6</P>
+    <P id="div2">Thatchapon Detpinit <br>613040035-4</P>
+    <P id="div3">Kanokpol Wuttisen <br>613040158-8</P> 
+</div>
+
+<style>
+    .borderimage{
+        border: 1px solid rgba(168, 168, 168, 0.3);
+    }
+</style>
+<script language="JavaScript1.2">
+    
+    function borderit(which,color){
+    
+    if (document.all||document.getElementById){
+    which.style.borderColor=color
+    }
+    }
+    
+</script>
+<script>
+    /*onclick="zoomToggle('200px','210px','300px','320px',this);"*/
+    var nW,nH,oH,oW;
+    
+    function zoomToggle(iWideSmall,iHighSmall,iWideLarge,iHighLarge,whichImage){
+    oW=whichImage.style.width;oH=whichImage.style.height;
+    
+    if((oW==iWideLarge)||(oH==iHighLarge)){
+    nW=iWideSmall;nH=iHighSmall;}else{
+    nW=iWideLarge;nH=iHighLarge;}
+    whichImage.style.width=nW;whichImage.style.height=nH;
+    }
+    </script>
 
 
 
@@ -198,6 +195,7 @@
                                             <i class="fa fa-arrow-circle-o-right"></i>
                                             <a href="Infect.html">จำนวนผู้ติดเชื้อ</a>
                                         </li>
+                                       
                                     </ul>
                                 </div>
                             </section>
@@ -252,13 +250,7 @@
 <!-- End Footer -->
 
 
-    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
-    <script src="https://www.sogoodweb.com/Scripts/owl-carousel/owl.carousel.js" type="text/javascript"></script>
-    <script src="https://cdn.sogoodweb.com/Template/templatedefault.min.js" type="text/javascript"></script>
-    <script src="js/template.js" type="text/javascript"></script>
+    
 
 </body>
 </html>

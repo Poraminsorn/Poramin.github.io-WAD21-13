@@ -21,6 +21,30 @@
 
 
 
+#div1 {
+  float:left;
+  background-color: #f5f4f6;
+  border: 1px solid rgba(0,0,0,.05);
+  border: 1px solid rgba(168, 168, 168, 0.3);
+  text-align:center;
+}
+#div2 {
+  float:left;
+  background-color: #f5f4f6;
+  border: 1px solid rgba(0,0,0,.05);
+  border: 1px solid rgba(168, 168, 168, 0.3);
+  text-align:center;
+}
+#div3 {
+  float:left;
+  background-color: #f5f4f6;
+  border: 1px solid rgba(0,0,0,.05);
+  border: 1px solid rgba(168, 168, 168, 0.3);
+  text-align:center;
+}
+
+
+
 
 /* Footer
 /*-----------------------------------------------------------------------------------*/
@@ -125,15 +149,9 @@ ul.block-with-icons {list-style: none; padding: 0; margin: 0;}
 
 ul.block-with-icons li:first-of-type {border-left: 1px solid rgba(0,0,0,.05);}
 
-ul.block-with-icons li {
-  -webkit-transition: all .25s linear;
-  -moz-transition: all .25s linear;
-  -ms-transition: all .25s linear;
-  -o-transition: all .25s linear;
-  transition: all .25s linear;
-}
 
-ul.block-with-icons li {
+
+.block-with-icons li {
   position: relative;
   width: 100%;
   background-color: #f5f4f6;
@@ -141,8 +159,8 @@ ul.block-with-icons li {
   border: 1px solid rgba(168, 168, 168, 0.3);
   border-left: none;
   float: left;
-  margin-bottom: 15px;
-}
+  margin-bottom: 20px;
+} 
 
 @media screen and (min-width: 768px){
 ul.block-with-icons li {width: 33.33333%; margin-bottom: 0;}
@@ -226,28 +244,7 @@ ul.block-with-icons li.b3 a:hover:after {background-position: -130px -46px !impo
 .widget .widget-items .abouts-wrapper img {margin-bottom: 15px; width: 100%; max-width: 100%;}
 
 /*start of nav*/
-.section-body-nav {display: block;}
-
-.mod-nav-body {
-  padding: 15px;
-  margin: auto;
-  padding-bottom: 0;
-  background: rgba(255,255,255,.3);    
-  border: 1px solid rgba(168,168,168,.3);
-  border-bottom: 0;
-}
-
-.widget-nav-body {padding: 15px;}
-
-.widget-nav-body{border-top: 0;}
-
 #widget_other_f_html_21650 {margin-bottom: 0; border-top: 0;}
-
-.mod-nav-body hr {margin: 0;}
-
-.mod-nav-body h1 {margin: auto; display: table; text-transform: uppercase;margin-bottom: 15px;}
-
-.widget-nav-body ul {margin: auto;  display: table;}
 
 /*start of contacts*/
 .content-contacts h4 {margin-top: 5px;}
